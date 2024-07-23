@@ -54,6 +54,13 @@ fig = px.treemap(df,
                  hover_data=['link'],
                  color_continuous_scale='RdBu')
 
+# Add an explanation of how to use the chart
+st.markdown("""
+**Instructions:**
+- Hover over a rectangle to see more details.
+- Click on the link in the tooltip to open it in a new window.
+""")
+
 st.plotly_chart(fig, use_container_width=True)
 
 
@@ -108,16 +115,6 @@ def process_similar_question(description):
     st.write(f"Most Similar Sub-Condition: {similar_sub_condition}")
     st.write(f"Related Condition: {condition}")
 
-# Create columns for general questions
-# Streamlit app
-st.title('Longevity Supplements Explorer')
-
-# Add an explanation of how to use the chart
-st.markdown("""
-**Instructions:**
-- Hover over a rectangle to see more details.
-- Click on the link in the tooltip to open it in a new window.
-""")
 
 st.subheader("Sample Questions about Supplements and Health Areas")
 num_columns = 3
