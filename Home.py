@@ -3,7 +3,7 @@ import plotly.express as px
 import streamlit as st
 
 # Load the data
-file_path = 'supplements.csv'  # Ensure the CSV file is in the same directory as this script
+file_path = 'data/supplements.csv'  # Ensure the CSV file is in the same directory as this script
 df = pd.read_csv(file_path)
 
 # Convert 'popularity' to numeric, forcing errors to NaN and then filling them with a default value (e.g., 1)
