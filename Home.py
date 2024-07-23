@@ -62,7 +62,7 @@ st.markdown("""
 **Instructions:**
             
 - Drill down by category and sub-category to explore different supplements.
-- The size of the boxes represents the popularity of the supplement.
+- The size of the boxes represents the popularity ranking of the supplement.
 - The color represents the evidence level for the supplement (blue is higher, red lower).
 - Ask a question on the health area or condition to explore further.
 
