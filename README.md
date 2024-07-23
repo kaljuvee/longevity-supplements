@@ -4,7 +4,7 @@
 
 ### Clone the Repo
   ```
-  git clone https://github.com/kaljuvee/pdme.git
+  git clone https://github.com/kaljuvee/longevity-supplements.git
   ```
 
 ### Create and Activate the Virtual Environment
