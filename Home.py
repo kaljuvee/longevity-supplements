@@ -25,7 +25,6 @@ fig.update_traces(
 
 # Streamlit app
 st.title('Longevity Supplements Explorer')
-st.plotly_chart(fig)
 
 # Add an explanation of how to use the chart
 st.markdown("""
