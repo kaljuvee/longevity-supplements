@@ -46,6 +46,9 @@ df = pd.read_csv(file_path)
 # Convert 'popularity' to numeric, forcing errors to NaN and then filling them with a default value (e.g., 1)
 df['popularity'] = pd.to_numeric(df['popularity'], errors='coerce').fillna(1)
 
+# Ensure 'evidence' is an integer
+df['evidence'] = df['evidence'].astype(int)
+
 # Create the treemap
 fig = px.treemap(df,
                  path=['condition', 'sub_condition', 'type', 'supplement'],
