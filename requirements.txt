@@ -1,3 +1,14 @@
 pandas
 plotly
 streamlit
+python-dotenv
+numpy
+scikit-learn
+langchain
+sentence-transformers
+langchain-openai
+openai
+faiss-cpu
+langchain
+langchain-community
+langchain-huggingface
