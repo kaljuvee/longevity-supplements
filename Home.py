@@ -61,9 +61,10 @@ fig = px.treemap(df,
 st.markdown("""
 **Instructions:**
             
-- Hover over a rectangle to see more details.
-- Click on the link in the tooltip to open it in a new window.
-- Ask a question on the health area or condition.
+- Drill down by category and sub-category to explore different supplements.
+- The size of the boxes represents the popularity of the supplement.
+- The color represents the evidence level for the supplement (blue is higher, red lower).
+- Ask a question on the health area or condition to explore further.
             """)
 
 st.plotly_chart(fig, use_container_width=True)
