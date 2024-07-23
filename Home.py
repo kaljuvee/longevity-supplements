@@ -65,7 +65,10 @@ st.markdown("""
 - The size of the boxes represents the popularity of the supplement.
 - The color represents the evidence level for the supplement (blue is higher, red lower).
 - Ask a question on the health area or condition to explore further.
-            """)
+
+Inspired by [Snake Oil by Information is Beautiful](https://informationisbeautiful.net/visualizations/snake-oil-scientific-evidence-for-nutritional-supplements-vizsweet/).
+""")
+
 
 st.plotly_chart(fig, use_container_width=True)
 
