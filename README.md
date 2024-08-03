@@ -27,7 +27,6 @@
 
   ## Run
 
-  - Run in streamlit:
   ```
- streamlit run Home.py
+  streamlit run Home.py
   ```
