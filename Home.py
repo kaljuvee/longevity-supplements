@@ -5,9 +5,9 @@ from sklearn.metrics.pairwise import cosine_similarity
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
 from langchain_community.document_loaders import DataFrameLoader
-from langchain.text_splitter import CharacterTextSplitter
-from langchain.chains import RetrievalQA
-from langchain.prompts import PromptTemplate
+from langchain_text_splitters import CharacterTextSplitter
+from langchain_classic.chains import RetrievalQA
+from langchain_classic.prompts import PromptTemplate
 from langchain_openai import ChatOpenAI
 import plotly.express as px
 import os

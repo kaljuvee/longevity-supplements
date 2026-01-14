@@ -5,10 +5,11 @@ python-dotenv
 numpy
 scikit-learn
 langchain
-sentence-transformers
+langchain-core
+langchain-text-splitters
+langchain-community
+langchain-huggingface
 langchain-openai
 openai
 faiss-cpu
-langchain
-langchain-community
-langchain-huggingface
+sentence-transformers
